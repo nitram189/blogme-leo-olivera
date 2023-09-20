@@ -5,7 +5,7 @@ import { useLibro } from "@/hooks/useLibro";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-export default function page() {
+export default function Page() {
 
     const { carrito } = useLibro();
     const [ total, setTotal ] = useState(0);
